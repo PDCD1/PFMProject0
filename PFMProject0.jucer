@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="vA70ne" name="PFMProject0" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
+  <MAINGROUP id="sOcZWa" name="PFMProject0">
+    <GROUP id="{2F4CFA0F-1FC1-4069-C46C-F1533ABF8316}" name="Source">
+      <FILE id="gSHHKd" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="FU6Sz4" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="IuqUoO" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <VS2019 targetFolder="Builds/VisualStudio2019">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="PFMProject0"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="PFMProject0"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../git and fork/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../git and fork/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../git and fork/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../git and fork/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../git and fork/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2019>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <WINDOWS/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>
